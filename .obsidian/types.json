@@ -1,0 +1,11 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "banner_x": "number",
+    "Всего_тем_алг_206": "number",
+    "Всего_практики_алг_206": "number",
+    "Всего_тем_алг": "number"
+  }
+}

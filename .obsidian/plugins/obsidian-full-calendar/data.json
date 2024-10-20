@@ -1,0 +1,21 @@
+{
+  "calendarSources": [
+    {
+      "type": "local",
+      "color": "#68d760",
+      "directory": "Полезный материал/Расписание/Группа 206"
+    },
+    {
+      "type": "local",
+      "color": "#d3e203",
+      "directory": "Полезный материал/Расписание/Группа 306"
+    }
+  ],
+  "defaultCalendar": 0,
+  "firstDay": 0,
+  "initialView": {
+    "desktop": "timeGridWeek",
+    "mobile": "timeGrid3Days"
+  },
+  "timeFormat24h": false
+}
