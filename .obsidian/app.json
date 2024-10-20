@@ -4,7 +4,9 @@
   "showUnsupportedFiles": true,
   "attachmentFolderPath": "Система/Вложенные файлы",
   "userIgnoreFilters": [
-    "README"
+    "README",
+    "Область преподавателя/",
+    "Система/"
   ],
   "alwaysUpdateLinks": true,
   "pdfExportSettings": {
