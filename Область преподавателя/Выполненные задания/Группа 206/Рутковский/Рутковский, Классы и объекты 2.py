@@ -25,4 +25,5 @@ class BankAccount:
 account = BankAccount("123456789", 100)
 
 account.add(300)
-            
+
+input()

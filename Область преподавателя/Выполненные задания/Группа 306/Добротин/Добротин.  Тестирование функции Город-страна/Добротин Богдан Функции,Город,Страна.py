@@ -7,4 +7,5 @@ class CitiesTestCase(unittest.TestCase):
         self.assertEqual(formatted_city_country, 'Santiago, Chile')
 
 if __name__ == '__main__':
-    unittest.maim()
+    unittest.main()
+    input()

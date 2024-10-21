@@ -14,13 +14,15 @@ self.length)
 rectangle1 = Rectangle(5, 10)
 rectangle2 = Rectangle(3, 7)
 print(f"Площадь прямоугольника 1:
-{rectangle1.area()}") 
+{rectangle1.area()}") #Неверно происходит вывод!
 
 print(f"Площадь прямоугольника 1:
-{rectangle1.perimeter()}")
+{rectangle1.perimeter()}") #Неверно происходит вывод!
 
 print(f"Площадь прямоугольника 2:
-{rectangle2.area()}")
+{rectangle2.area()}") #Неверно происходит вывод!
 
 print(f"Площадь прямоугольника 2:
-{rectangle2.perimeter()}")
+{rectangle2.perimeter()}") #Неверно происходит вывод!
+
+input()

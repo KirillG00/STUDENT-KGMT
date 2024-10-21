@@ -25,3 +25,5 @@ account1 = BankAccount("123456789", 1000)
 account1.add(500)
 account1.withdraw(200)
 account1.withdraw(1500)  # Попытка снять больше, чем есть на счете
+
+input()

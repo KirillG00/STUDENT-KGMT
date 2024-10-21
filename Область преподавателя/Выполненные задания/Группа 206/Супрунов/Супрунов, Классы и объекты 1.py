@@ -14,3 +14,5 @@ rect2 = Rectangle(3, 4)
 
 print(f"Прямоугольник 1: Площадь = {rect1.area()}, Периметр = {rect1.perimeter()}")
 print(f"Прямоугольник 1: Площадь = {rect2.area()}, Периметр = {rect2.perimeter()}")
+
+input()
