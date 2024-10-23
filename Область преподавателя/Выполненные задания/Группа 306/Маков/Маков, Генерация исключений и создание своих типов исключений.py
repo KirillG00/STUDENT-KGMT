@@ -30,5 +30,7 @@ try:
     age = input("Введите возраст животного: ")
     animal = Animal(name, age)
     print(f"Создано животное: {animal.name}, возраст: {animal.age}")
+    input()
 except AnimalError as e:
     print(e)
+    input()
