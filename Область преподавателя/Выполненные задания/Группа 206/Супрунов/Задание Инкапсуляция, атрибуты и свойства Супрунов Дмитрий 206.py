@@ -40,6 +40,7 @@ print(account.balance)
 account.withdraw(1000)
 
 print(account.owner)
+input()
 
 try:
 

@@ -1,1 +1,32 @@
-{}
+{
+	"nodes":[
+		{"id":"199eba86c9aa1420","type":"group","x":-600,"y":-240,"width":2400,"height":1280,"label":"Бражник"},
+		{"id":"2f29707c6dd54e43","type":"group","x":940,"y":-160,"width":760,"height":1080,"color":"5","label":"Условие задания"},
+		{"id":"f8ec589a1dd7bf17","type":"group","x":-280,"y":680,"width":620,"height":303,"color":"3","label":"Подсказки"},
+		{"id":"8b4efa347da5c13d","type":"text","text":"```python\nclass BankAccount:\n    def __init__(self, account_number, owner, balance=0):\n        self.account_number = account_number\n        self._owner = owner\n        self.balance = balance\n\n    def get_owner(self):\n        return self._owner\n\n    def add(self, amount):\n        if amount > 0:\n            self.balance += amount\n            print(f\"Добавлено {amount}. Новый баланс: {self.balance}\")\n        else:\n            print(\"Сумма должна быть положительной.\")\n\n    def withdraw(self, amount):\n        if amount > self.balance:\n            print(\"Недостаточно средств на счете.\")\n        elif amount <= 0:\n            print(\"Сумма должна быть положительной.\")\n        else:\n            self.balance -= amount\n            print(f\"Снято {amount}. Новый баланс: {self.balance}\")\n\n# Пример использования класса\nif __name__ == \"__main__\":\n    account = BankAccount(\"123456789\", \"John Doe\", 1000)\n    print(f\"Владелец счета: {account.get_owner()}\")\n    try:\n        account._owner = \"Jane Smith\"\n    except AttributeError as e:\n        print(f\"Ошибка: {e}\")\n\n    account.add(1000)\n    account.withdraw(500)\n    account.withdraw(1000)\n```","x":-80,"y":-210,"width":533,"height":780},
+		{"id":"59598fc2467db0a3","type":"text","text":"Метод `deposit(amount)`","x":960,"y":150,"width":250,"height":50,"color":"5"},
+		{"id":"d14368024cf98221","type":"text","text":"Свойство `balance`","x":960,"y":570,"width":250,"height":60,"color":"5"},
+		{"id":"b096ee9b4fef7efe","type":"text","text":"Метод `withdraw(amount)`","x":960,"y":360,"width":250,"height":60,"color":"5"},
+		{"id":"edcc98e2db7fbe2d","type":"text","text":"Закрытый атрибут `_balance`","x":960,"y":-120,"width":250,"height":60,"color":"5"},
+		{"id":"6e0fd4de64e4eac0","type":"file","file":"Информационные технологии/Второй курс/Основы алгоритмизации и программирования/Лекции/Задание. Инкапсуляция, атрибуты и свойства.md","x":1280,"y":80,"width":400,"height":400},
+		{"id":"d7ce355baeaead95","type":"text","text":"[[Инкапсуляция, атрибуты и свойства#Методы доступа. Геттеры и сеттеры]]","x":80,"y":703,"width":250,"height":83},
+		{"id":"3cc57b8c87ee00e1","x":-270,"y":715,"width":250,"height":60,"type":"text","text":"Как создать свойство?"},
+		{"id":"9ea52d958a2b68a0","type":"text","text":"Как сделать закрытый атрибут?","x":-270,"y":843,"width":250,"height":60},
+		{"id":"d32e76bdd0d23f1c","x":80,"y":843,"width":250,"height":60,"type":"text","text":"Название закрытого атрибута начинается с `__`"},
+		{"id":"9fc9ed8f8fe092c0","type":"file","file":"Интерактивная среда/Материалы/Материал группы 206/Практические задания/Исправить/Бражник_BankAcc2.py","x":-560,"y":-85,"width":213,"height":50}
+	],
+	"edges":[
+		{"id":"e21df656bcbd4e32","fromNode":"9fc9ed8f8fe092c0","fromSide":"right","toNode":"8b4efa347da5c13d","toSide":"left","label":"Вывод кода"},
+		{"id":"04e256ac4b571a22","fromNode":"6e0fd4de64e4eac0","fromSide":"left","toNode":"edcc98e2db7fbe2d","toSide":"right"},
+		{"id":"e26ebd564f3bba0e","fromNode":"6e0fd4de64e4eac0","fromSide":"left","toNode":"59598fc2467db0a3","toSide":"right"},
+		{"id":"e836e5fa5c7d202e","fromNode":"6e0fd4de64e4eac0","fromSide":"left","toNode":"b096ee9b4fef7efe","toSide":"right"},
+		{"id":"36db9a3134a95f3e","fromNode":"6e0fd4de64e4eac0","fromSide":"left","toNode":"d14368024cf98221","toSide":"right"},
+		{"id":"514cb7c2f405b2e1","fromNode":"edcc98e2db7fbe2d","fromSide":"left","toNode":"8b4efa347da5c13d","toSide":"right","color":"1","label":"Атрибут открытый"},
+		{"id":"6ad075c9d7e35586","fromNode":"59598fc2467db0a3","fromSide":"left","toNode":"8b4efa347da5c13d","toSide":"right","color":"3","label":"метод add заменяет его \nфункционал"},
+		{"id":"61de5e3976726c48","fromNode":"b096ee9b4fef7efe","fromSide":"left","toNode":"8b4efa347da5c13d","toSide":"right","color":"4","label":"Верно"},
+		{"id":"c27f02843a9f141f","fromNode":"d14368024cf98221","fromSide":"left","toNode":"8b4efa347da5c13d","toSide":"right","color":"1","label":"Нет свойства"},
+		{"id":"e9f3329cba9a4f1f","fromNode":"3cc57b8c87ee00e1","fromSide":"right","toNode":"d7ce355baeaead95","toSide":"left"},
+		{"id":"214a48e069e7f237","fromNode":"9ea52d958a2b68a0","fromSide":"right","toNode":"d32e76bdd0d23f1c","toSide":"left"},
+		{"id":"3e2117ace11fdf44","fromNode":"2f29707c6dd54e43","fromSide":"bottom","toNode":"f8ec589a1dd7bf17","toSide":"right","color":"3"}
+	]
+}

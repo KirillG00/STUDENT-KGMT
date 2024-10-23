@@ -19,3 +19,5 @@ print(f"Площадь прямоугольника 2: {rectangle2.area()}")
 
 print(f"Периметр прямоугольника 2: {rectangle2.perimeter()}")
 
+input()
+
