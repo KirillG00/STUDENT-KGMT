@@ -33,3 +33,5 @@ account.withdraw(300)   # Снятие 300
 print(f"Текущий баланс: {account.balance}")  # Получение текущего баланса
 account.withdraw(400)   # Попытка снять больше, чем на счете
 account.deposit(-100)   # Попытка внести отрицательную сумму
+
+input()

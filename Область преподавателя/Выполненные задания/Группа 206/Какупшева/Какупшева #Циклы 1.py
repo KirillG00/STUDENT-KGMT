@@ -23,3 +23,5 @@ while True:
     if exit_input.lower() == 'y':
         print("Завершение программы...")
         break  # Выход из бесконечного цикла
+        
+input()

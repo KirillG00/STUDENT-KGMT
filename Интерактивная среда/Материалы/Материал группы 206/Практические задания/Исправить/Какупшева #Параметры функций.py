@@ -13,3 +13,5 @@ print(f"Сумма чисел от 5 до 10: {result}")
 
 result = sum_range(10, 5)
 print(f"Сумма чисел от 10 до 5: {result}")
+
+input()
