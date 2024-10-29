@@ -42,7 +42,8 @@ account.withdraw(1000)
 print(account.owner)
 
 try:
-
     account.owner = "Jane Smith" 
 except AttributeError as e:
     print(e)
+
+input()

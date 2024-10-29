@@ -8,3 +8,5 @@ def oper(a, b):
 
 result = oper(10, 2)
 print(result)
+
+input()

@@ -19,3 +19,5 @@ if is_leap_year(year):
     print(f"Год {year} является високосным.")
 else:
     print(f"Год {year} не является високосным.")
+    
+input()
