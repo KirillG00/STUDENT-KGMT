@@ -5,8 +5,10 @@
   "attachmentFolderPath": "Система/Вложенные файлы",
   "userIgnoreFilters": [
     "README",
+    "Система/",
+    "Область преподавателя/Выполненные задания/",
     "Область преподавателя/",
-    "Система/"
+    "Область преподавателя/На проверке/"
   ],
   "alwaysUpdateLinks": true,
   "pdfExportSettings": {
