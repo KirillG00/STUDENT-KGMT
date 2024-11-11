@@ -15,3 +15,5 @@ rect = Rectangle(10,20)
 print(f"Rectangle: width = {rect.width}, length = {rect.length}")
 print(f"Rectangle area: Area = {rect.area()}")
 print (f"Rectangle perimeter: Perimetr = {rect.perimeter()}")
+
+input()

@@ -21,3 +21,5 @@ acc1.add(200)
 acc1.withdraw(500)
 acc1.withdraw(300)
 acc1.withdraw(900)
+
+input()

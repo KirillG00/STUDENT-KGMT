@@ -31,3 +31,4 @@ print(cat.meow())
 print(bird.info())
 print(bird.chirp())
 
+input()

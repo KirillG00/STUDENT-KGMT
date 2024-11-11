@@ -24,3 +24,5 @@ print(cat.info())
 print(cat.meow())
 print(bird.info())
 print(bird.chirik())
+
+input()

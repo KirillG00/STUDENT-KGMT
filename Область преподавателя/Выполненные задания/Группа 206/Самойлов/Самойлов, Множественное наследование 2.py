@@ -85,3 +85,5 @@ print(penguin.do_not_fly())  # Вывод: Penny cannot fly.
 print(dolphin.make_sound())  # Вывод: Flipper says Ee-ee
 print(dolphin.info())        # Вывод: Name: Flipper, Sound: Ee-ee, Max Depth: 300 meters
 print(dolphin.swim())        # Вывод: Flipper is swimming!
+
+input()

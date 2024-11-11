@@ -61,3 +61,5 @@ print(penguin.do_not_fly())
 print(dolphin.info())
 print(dolphin.make_sound())
 print(dolphin.swim())
+
+input()

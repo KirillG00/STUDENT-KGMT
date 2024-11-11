@@ -39,3 +39,5 @@ print(cat.meow())  # Вывод: Whiskers says Meow!
 
 print(bird.info())  # Вывод: Tweety is 1 years old.
 print(bird.chirp())  # Вывод: Tweety says Chirp!
+
+input()
