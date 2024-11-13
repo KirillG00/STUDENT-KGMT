@@ -6,3 +6,5 @@ celsius = float(input("Введите температуру в градусах
 fahrenheit = celsius_to_fahrenheit(celsius)
 
 print(f"{celsius}°C равно {fahrenheit}°F")
+
+input()

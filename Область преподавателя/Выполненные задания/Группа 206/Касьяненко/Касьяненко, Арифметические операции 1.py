@@ -8,3 +8,5 @@ T = float(input("Введите количество лет : "))
 interest = calculate_interest(P, R, T)
 
 print(f"Накопленный процент за {T} лет составит: {interest}")
+
+input()

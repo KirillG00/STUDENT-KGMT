@@ -10,3 +10,5 @@ print(type(variable))  # Вывод: <class 'str'>
 # Изменение значения на число с плавающей запятой
 variable = 3.14
 print(type(variable))  # Вывод: <class 'float'>
+
+input()
