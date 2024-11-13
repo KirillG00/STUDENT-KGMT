@@ -8,3 +8,7 @@ print(f"{number} + 15 = {add_15(number)}")
 x = 5
 y = 3
 print(f"{x} * {y} = {multiply(x, y)}")
+
+
+
+input()

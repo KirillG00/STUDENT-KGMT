@@ -12,3 +12,5 @@ print(f"{number} + 15 = {add_15(number)}")
 x = float(input("Введите первое число для умножения: "))
 y = float(input("Введите второе число для умножения: "))
 print(f"{x} * {y} = {multiply(x, y)}")
+
+input()

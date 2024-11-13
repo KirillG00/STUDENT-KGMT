@@ -28,3 +28,5 @@ account = BankAccount("342112", 1000)
 account.add(600)      # Добавление 600
 account.withdraw(400)  # Снятие 400
 account.withdraw(1500) # Попытка снять больше, чем на балансе
+
+input()

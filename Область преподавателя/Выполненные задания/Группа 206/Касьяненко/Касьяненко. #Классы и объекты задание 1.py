@@ -21,3 +21,6 @@ print(f"Периметр прямоугольника 1: {rectangle1.perimeter()
 
 print(f"Площадь прямоугольника 2: {rectangle2.area()}")  # Вывод: 21
 print(f"Периметр прямоугольника 2: {rectangle2.perimeter()}")  # Вывод: 20
+
+
+input()
