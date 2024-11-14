@@ -4,3 +4,5 @@ while True:
     print("Сумма чисел: ", num1 + num2)
     str = input("Нажмите Y или y для завершения программы: ")
     if (str == "Y" or str == "y"):  break
+
+input()

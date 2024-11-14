@@ -31,3 +31,5 @@ print("mat[1][2]:  ", mat[1][2])
 print("mat[2][0]:  ", mat[2][0])
 print("mat[2][1]:  ", mat[2][1])
 print("mat[2][2]:  ", mat[2][2])
+
+input()

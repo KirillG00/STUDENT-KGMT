@@ -14,3 +14,5 @@ if amount > 0:
     print("Сумма с учетом скидки : ", amount - discount)
 else:
     print("Некорректная сумма")
+
+input()

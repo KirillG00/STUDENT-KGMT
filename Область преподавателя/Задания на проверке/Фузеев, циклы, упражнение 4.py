@@ -9,3 +9,4 @@ for i in range(n):
         else: print("*",end="  ")
         k+=1
     print()
+input()

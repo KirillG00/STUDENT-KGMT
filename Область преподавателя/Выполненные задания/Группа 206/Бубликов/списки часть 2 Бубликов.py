@@ -19,3 +19,5 @@ for n in list1:
         list2.append(n)
 print(list1)
 print(list2)
+
+input()
