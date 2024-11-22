@@ -1,0 +1,5 @@
+name = input("Ваше имя: ")
+age = input("Ваш возвраст: ")
+phone = input("Ваш телефон: ")
+adress = input("Ваш адрес: ")
+print(f"Name: {name}  Age: {age} Phone: {phone} Adress: {adress}")
