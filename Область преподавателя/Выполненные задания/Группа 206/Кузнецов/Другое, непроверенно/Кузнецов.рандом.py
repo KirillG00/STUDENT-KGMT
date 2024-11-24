@@ -14,3 +14,5 @@ while True:
         print("Мое число меньше")
     elif user_num < integer:
         print("Мое число больше")
+        
+input()

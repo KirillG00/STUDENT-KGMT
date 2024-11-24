@@ -3,3 +3,5 @@ def send_invitation():
     print(f"На {email} будет направлено письмо с приглашением.")
 
 send_invitation()
+
+input()
