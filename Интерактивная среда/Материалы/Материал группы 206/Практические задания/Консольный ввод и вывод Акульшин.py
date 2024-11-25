@@ -1,0 +1,5 @@
+name = input("Your name: ")
+age = input("Your age: ")
+number = input ("Your number: ")
+adress = input ("Your adress: ")
+print(f"Name: {name}  Age: {age} Number: {number} Adress: {adress}")
