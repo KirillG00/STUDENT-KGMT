@@ -3,6 +3,8 @@
 		{"id":"1c8b109c14278d4a","type":"group","x":-640,"y":-240,"width":2400,"height":1174,"label":"Какупшева"},
 		{"id":"ca177a1d1aeecb2c","type":"group","x":-2520,"y":680,"width":1792,"height":1240,"label":"Верова"},
 		{"id":"2a2963822b1a8fa1","type":"group","x":-640,"y":1060,"width":2400,"height":860,"label":"Сапунов"},
+		{"id":"29ba1a63dce3e8f3","x":-2520,"y":-240,"width":1760,"height":731,"type":"group","label":"Кузнецов"},
+		{"id":"1156fda1e3acdb2e","x":-2520,"y":-1000,"width":1760,"height":672,"type":"group","label":"Супрунов"},
 		{"id":"f175d6cf6459696d","type":"text","text":"","x":-1685,"y":1176,"width":250,"height":60},
 		{"id":"f8b5e0fe6bc66ade","type":"text","text":"```python\ndef calculate_discount(sale_amount):\n    \"\"\"Функция для вычисления суммы скидки.\"\"\"\n    if sale_amount <= 5000:\n        discount_rate = 0.05  # 5%\n    elif sale_amount <= 15000:\n        discount_rate = 0.12  # 12%\n    elif sale_amount <= 25000:\n        discount_rate = 0.20  # 20%\n    else:\n        discount_rate = 0.30  # 30%\n\n    discount_amount = sale_amount * discount_rate\n    return discount_amount\n\n# Ввод суммы продажи пользователем\ntry:\n    sale_amount = float(input(\"Введите сумму продажи: \"))\n    \n    if sale_amount < 0:\n        print(\"Сумма продажи не может быть отрицательной.\")\n    else:\n        discount = calculate_discount(sale_amount)\n        print(f\"Сумма скидки: {discount:.2f}\")\nexcept ValueError:\n    print(\"Пожалуйста, введите корректное число.\")\n    \n    '''\n    После вычисления скидки \n    программа должна вывести саму скидку и сумму с вычетом скидки. Выодится только\n    сама скидка\n    '''\n    \ninput()\n\n```","x":0,"y":-200,"width":560,"height":520},
 		{"id":"60fb8e550eab563d","type":"file","file":"Интерактивная среда/Материалы/Материал группы 206/Задания для исправления/Какупшева Условная конструкция if 4.py","x":-580,"y":-200,"width":400,"height":400},
@@ -27,7 +29,11 @@
 		{"id":"80b9507eee95379a","type":"text","text":"Условие выполнено не до конца. По условию нужно добавить метод, который \nдобавляет средства на счет и метод, который снимает.","x":520,"y":1579,"width":250,"height":132},
 		{"id":"59980e8abb9706a5","type":"text","text":"По условию необходимо добавить свойство balance (только для чтения), \nкоторое позволяет получить текущее значение баланса.","x":520,"y":1165,"width":250,"height":170},
 		{"id":"7793c92701c4095a","type":"file","file":"Информационные технологии/Второй курс/Основы алгоритмизации и программирования/Лекции/Задание. Инкапсуляция, атрибуты и свойства.md","x":980,"y":1120,"width":400,"height":400},
-		{"id":"152ecdd1e610dbfb","type":"file","file":"Информационные технологии/Второй курс/Основы алгоритмизации и программирования/Практические задания для Python/Задание. Классы и объекты.md","x":980,"y":1541,"width":400,"height":341}
+		{"id":"152ecdd1e610dbfb","type":"file","file":"Информационные технологии/Второй курс/Основы алгоритмизации и программирования/Практические задания для Python/Задание. Классы и объекты.md","x":980,"y":1541,"width":400,"height":341},
+		{"id":"1734e1d1a03b1563","x":-2467,"y":-200,"width":400,"height":400,"type":"file","file":"Интерактивная среда/Материалы/Материал группы 206/Задания для исправления/Кузнецов. Классы и объекты (2) -.py"},
+		{"id":"a44d03c2892357e3","x":-1798,"y":-35,"width":278,"height":60,"type":"text","text":"Нет вывода, хотя должен быть"},
+		{"id":"56426c454db6c232","x":-2382,"y":-920,"width":400,"height":400,"type":"file","file":"Интерактивная среда/Материалы/Материал группы 206/Задания для исправления/Проекст Тетрис Супрунов Дмитрий 206г.py"},
+		{"id":"515220b070e55210","x":-1713,"y":-738,"width":250,"height":60,"type":"text","text":"Не работает"}
 	],
 	"edges":[
 		{"id":"eb32f02463a63185","fromNode":"439122e2b907ff08","fromSide":"left","toNode":"f8b5e0fe6bc66ade","toSide":"right"},
@@ -47,6 +53,8 @@
 		{"id":"fb97ef5f212704ba","fromNode":"83b67fdf4088112e","fromSide":"left","toNode":"ddfdc7b2cc83a305","toSide":"right"},
 		{"id":"b10211e4a64e2d42","fromNode":"05fa44e0ef2e64bc","fromSide":"left","toNode":"bc018cef89f2bb6b","toSide":"right"},
 		{"id":"6319c2321824efbc","fromNode":"2d41776abfebcc79","fromSide":"left","toNode":"83b67fdf4088112e","toSide":"right"},
-		{"id":"093eefe864b28048","fromNode":"7f4e2c6fbf2f64f0","fromSide":"left","toNode":"05fa44e0ef2e64bc","toSide":"right"}
+		{"id":"093eefe864b28048","fromNode":"7f4e2c6fbf2f64f0","fromSide":"left","toNode":"05fa44e0ef2e64bc","toSide":"right"},
+		{"id":"3b4501894f3e6cc1","fromNode":"1734e1d1a03b1563","fromSide":"right","toNode":"a44d03c2892357e3","toSide":"left"},
+		{"id":"e2b3d3c5ca7ce9e2","fromNode":"56426c454db6c232","fromSide":"right","toNode":"515220b070e55210","toSide":"left"}
 	]
 }

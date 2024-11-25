@@ -7,3 +7,5 @@ elif a < b:
     print("b больше, чем a")
 else:
     print("a равно b")
+
+input()
