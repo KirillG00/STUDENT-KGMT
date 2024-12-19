@@ -8,7 +8,7 @@
   "nativeMenus": false,
   "showViewHeader": true,
   "accentColor": "#914ce6",
-  "baseFontSize": 10,
+  "baseFontSize": 14,
   "textFontFamily": "",
   "baseFontSizeAction": true
 }
