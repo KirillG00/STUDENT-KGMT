@@ -2,8 +2,7 @@
   "theme": "obsidian",
   "cssTheme": "Things",
   "enabledCssSnippets": [
-    "style",
-    "Dashboard"
+    "style"
   ],
   "nativeMenus": false,
   "showViewHeader": true,
