@@ -2,14 +2,14 @@
 title: Дежурство 206
 allDay: true
 type: recurring
-daysOfWeek: 
+daysOfWeek:
   - F
   - R
   - W
   - T
   - M
 startRecur: 2024-09-30
-endRecur: 2024-11-30
+endRecur: 2025-01-17
 ---
 
 | №   | ФИО                |   Дата   |
