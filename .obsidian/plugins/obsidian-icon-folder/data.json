@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "OcBookmark24",
       "LiTelescope",
       "OcAccessibility16",
       "OcCheckbox16",
-      "OcRepoTemplate24",
-      "OcRepoTemplate16"
+      "OcRepoTemplate24"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -77,5 +77,6 @@
   "Полезный материал/Расписание/События/День синопсисов.md": "OcCheckbox16",
   "Интерактивная среда/Материалы": "OcArchive24",
   "Полезный материал/Успеваемость": "OcAccessibility16",
-  "Область преподавателя": "LiTelescope"
+  "Область преподавателя": "LiTelescope",
+  "Информационные технологии/Третий курс (в разработке)/Стандартизация, сертификация и техническое документирование/Стандартизация, сертификация и техническое документирование.md": "OcBookmark24"
 }
