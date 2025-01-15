@@ -1,5 +1,6 @@
 {
   "pinned": [
-    "insert-template"
+    "insert-template",
+    "table-editor-obsidian:evaluate-formulas"
   ]
 }
